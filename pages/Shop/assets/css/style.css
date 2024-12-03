@@ -138,6 +138,10 @@ nav li {
   padding-top: 1.5rem;
 }
 
+section-body{
+  height: 90dvh;
+}
+
 .new h2 {
   text-align: center;
   padding: 2rem 0 0;
