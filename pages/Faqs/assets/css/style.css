@@ -1,0 +1,259 @@
+/* General Reset */
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+* {
+  font-family: "Poppins",sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  background: rgb(141, 160, 250);
+}
+
+.freeshipping {
+  display: block;
+  width: 100%;
+  height: 3rem;
+  background-color: var(--main-color);
+  overflow: hidden;
+  position: relative;
+  background: rgb(146, 162, 241);
+}
+
+.freetext {
+  position: absolute;
+  white-space: nowrap;
+  color: var(--bg-color);
+  font-weight: bold 700;
+  margin-top: 1rem;
+  animation: free 20s linear infinite;
+  font-size: var(--icon-font);
+}
+
+@keyframes free {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  top: 2.9rem;
+  right: 0;
+  z-index: 1000;
+  background: var(--bg-color);
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  transition: all 0.5s ease;
+}
+
+nav img {
+  width: 100%;
+  height: auto;
+}
+
+.nav-item {
+  display: flex;
+  word-spacing: 4rem;
+}
+
+.navbar a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 12%;
+  padding-right: 10%;
+  height: 9rem;
+  font-family: Times New Roman, Times, Serif;
+  font-style: italic;
+  font-size: 20px;
+  scroll-behavior: smooth;
+  padding-top: .5rem;
+  text-decoration: none; /* This removes the underline from links */
+}
+.navbar a:hover {
+  color: var(--main-color);
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+nav li {
+  height: 45px;
+}
+
+.navbar{
+  height: 13dvh;
+  background-color:rgb(250, 167, 213);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar Styles */
+.sidebar {
+  position: fixed;
+  top: 5%;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: rgba(223, 132, 185, 0.47);
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar a {
+  width: 100%;
+  padding: 1.5rem 2rem;
+  display: block;
+  padding-top: 1.5rem;
+}
+
+section-body{
+  height: 85dvh;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+.text-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+h2{
+  color: rgb(198, 169, 208) ;
+  font-size: 90px;
+  padding-bottom: 1rem;
+}
+h3{
+  font-size: 35px;
+  color: rgb(198, 169, 208) ;
+  padding-bottom: 2rem;
+}
+
+p{
+  font-size: 25px;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+.img-blush{
+  width: 100dvh;
+  display: flex;
+  align-items: center;
+ 
+}
+
+section-body li{
+  padding: 2rem;
+  position: absolute;
+  top: 10%; /* Adjust position based on your layout */
+  left: 1rem;
+  z-index: 10; /* Ensure it is on top of other content */
+}
+
+.footer{
+  height: 9dvh;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color:rgb(250, 167, 213);
+  text-decoration: none;
+  p{
+    display: flex;
+    align-items: center;
+  }
+  a{
+    color: black;
+  }
+}
+
+/* Hide on Mobile */
+@media (max-width: 800px) {
+    .hideOnMobile {
+      display: none;
+    }
+  
+    section-body {
+      padding: 2rem;
+      height: 78dvh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .text-body {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      text-align: auto;
+      align-items: center;
+    }
+  
+    h2 {
+      font-size: 40px; /* Decrease font size for mobile */
+      padding-bottom: .5rem;
+      text-align: center;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    
+    p {
+        font-size: 15px; /* Adjust text size for readability */
+        padding-bottom: 0.3rem;
+        text-align: justify;
+    }
+    
+    
+    
+    .footer {
+        padding: 1rem;
+        
+        p {
+            text-align: center; /* Center-align contact text */
+        }
+    }
+}
