@@ -60,13 +60,10 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This website is to give out an online endorsement of a hoodie company. It contains a home page, a frequently asked questions page, shop page, and contacts page. It is a responsive site that allows consumers to browse the new collection of hoodies from price to description of the material. In addition to a responsive site, the contacts page has a type in box for consumers to input their email for any further inquiries.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+The project is a clothing store that has recently launched and is selling hoodies. The purpose of the site is for the buyers to acknowledge that a new hoodie store will be launching online. The key components to the site is the landing page, a page for frequently asked questions, the shop showing an overview of what is in store, and contacts which shows business contacts for further inquiries. The technology used are sets of codes. HTML, CSS, and JAVASCRIPT. Altogether, this created a responsive site for the consumers to use as they browse the contents of the site.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -120,4 +117,9 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| sidebar | To make the sidebar toggable through a button on the side | https://youtu.be/U8smiWQ8Seg?si=0b7vmJltJkReZGNC |
+| sliding text for navbar | "free shipping" text infinitely moving from left to right |(https://www.youtube.com/watch?v=WWN-68aQ-Qk) |
+| "midnight" hoodie | picture source for this hoodie |(https://ph.pinterest.com/pin/1016195103414296847/) |
+| "blush" hoodie | picture source for this hoodie | https://ph.pinterest.com/pin/606578643595654700/ |
+| "camel" hoodie | picture source for this hoodie | https://ph.pinterest.com/pin/ATFuCpz-waRIAWCwktKW2ISZCTgUs-yiOTR4IWD1mD2gpEzWsuk-BDzQkfrpPET1hpC0Ay80cLFywdWAIdtPDJI/ |
+
