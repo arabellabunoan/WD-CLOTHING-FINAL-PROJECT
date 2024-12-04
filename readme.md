@@ -117,7 +117,7 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | sidebar | To make the sidebar toggable through a button on the side | https://youtu.be/U8smiWQ8Seg?si=0b7vmJltJkReZGNC |
-| sliding text for navbar | "free shipping" text infinitely moving from left to right |(https://www.youtube.com/watch?v=WWN-68aQ-Qk) |
+| sliding text for navbar | "free shipping" text infinitely moving from right to left |(https://www.youtube.com/watch?v=WWN-68aQ-Qk) |
 | "midnight" hoodie | picture source for this hoodie |(https://ph.pinterest.com/pin/1016195103414296847/) |
 | "blush" hoodie | picture source for this hoodie | https://ph.pinterest.com/pin/606578643595654700/ |
 | "camel" hoodie | picture source for this hoodie | https://ph.pinterest.com/pin/ATFuCpz-waRIAWCwktKW2ISZCTgUs-yiOTR4IWD1mD2gpEzWsuk-BDzQkfrpPET1hpC0Ay80cLFywdWAIdtPDJI/ |
