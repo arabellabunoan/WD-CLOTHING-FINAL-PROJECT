@@ -18,11 +18,10 @@
 
 <br />
 
-[![wakatime](https://wakatime.com/badge/user/e43cf42b-dc09-4de9-b5d6-5591d039c789/project/9284d335-1007-4dd6-9955-cb18a4b5ee51.svg)](https://wakatime.com/badge/user/e43cf42b-dc09-4de9-b5d6-5591d039c789/project/9284d335-1007-4dd6-9955-cb18a4b5ee51)
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=WD-CLOTHING-FINAL-PROJECT)
+![](https://visit-counter.vercel.app/counter.png?page=arabellabunoan/WD-CLOTHING-FINAL-PROJECT)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
